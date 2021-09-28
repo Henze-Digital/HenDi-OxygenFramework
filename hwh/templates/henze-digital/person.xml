@@ -1,5 +1,20 @@
 <?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/develop/schema/de/wegaPersons.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/develop/schema/de/wegaPersons.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <person xmlns="http://www.tei-c.org/ns/1.0" xml:id="" status="proposed" source="HWH">
-   <persName type="reg"/>
+   <idno type="gnd"></idno>
+   <persName type="reg">
+      <forename></forename>
+      <surname></surname>
+   </persName>
+   <persName type="initial"></persName>
+   <birth>
+      <date></date> <!-- when="0000-00-00" -->
+      <placeName></placeName>
+   </birth>
+   <death>
+      <date></date> <!-- when="2015-12-11" -->
+      <placeName></placeName>
+   </death>
+   <occupation></occupation>
+   <note></note>
 </person>
