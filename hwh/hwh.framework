@@ -15,7 +15,14 @@
 						<String>HWH</String>
 					</field>
 					<field name="schemaDescriptor">
-						<null/>
+						<docTypeSchema>
+							<field name="type">
+								<Integer>6</Integer>
+							</field>
+							<field name="uri">
+								<String>file:/Users/dried/Repositories/Henze-Digital/HWH-ODD/schema/de/hwhLetters.rng</String>
+							</field>
+						</docTypeSchema>
 					</field>
 					<field name="classpath">
 						<String-array/>
@@ -169,7 +176,7 @@
 									<String>*</String>
 								</field>
 								<field name="fileName">
-									<String>A*</String>
+									<String>A04*</String>
 								</field>
 								<field name="publicID">
 									<String>*</String>
@@ -745,7 +752,7 @@
 						<Boolean>false</Boolean>
 					</field>
 					<field name="imposedInitialPage">
-						<String>Text</String>
+						<String>Author</String>
 					</field>
 					<field name="elementLocatorExtension">
 						<null/>
