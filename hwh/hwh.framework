@@ -272,7 +272,7 @@
 									<String></String>
 								</field>
 								<field name="inputXSLURL">
-									<String>file:/Users/dried/Repositories/Henze-Digital/henze-digital/scripts/lists/listLettersAlpha.xql</String>
+									<String>${pdu}/scripts/lists/listLettersAlpha.xql</String>
 								</field>
 								<field name="inputXMLURL">
 									<null/>
@@ -406,7 +406,7 @@
 									<String></String>
 								</field>
 								<field name="inputXSLURL">
-									<String>file:/Users/dried/Repositories/Henze-Digital/henze-digital/scripts/lists/listLettersChrono.xql</String>
+									<String>${pdu}/scripts/lists/listLettersChrono.xql</String>
 								</field>
 								<field name="inputXMLURL">
 									<null/>
@@ -540,7 +540,7 @@
 									<String></String>
 								</field>
 								<field name="inputXSLURL">
-									<String>file:/Users/dried/Repositories/Henze-Digital/henze-digital/scripts/lists/listPersons.xql</String>
+									<String>${pdu}/scripts/lists/listPersons.xql</String>
 								</field>
 								<field name="inputXMLURL">
 									<null/>
@@ -674,7 +674,7 @@
 									<String></String>
 								</field>
 								<field name="inputXSLURL">
-									<String>file:/Users/dried/Repositories/Henze-Digital/henze-digital/scripts/lists/listPlaces.xql</String>
+									<String>${pdu}/scripts/lists/listPlaces.xql</String>
 								</field>
 								<field name="inputXMLURL">
 									<null/>
@@ -734,6 +734,122 @@
 									<String-array/>
 								</field>
 							</scenario>
+							<antScenario>
+								<field name="additionalAntArgs">
+									<String></String>
+								</field>
+								<field name="buildTarget">
+									<String>pullAll</String>
+								</field>
+								<field name="buildFilePath">
+									<String>${pd}/updateRepos.xml</String>
+								</field>
+								<field name="ditaParams">
+									<list/>
+								</field>
+								<field name="jvmArgs">
+									<String>-Xmx256m</String>
+								</field>
+								<field name="useCustomJavaHome">
+									<Boolean>false</Boolean>
+								</field>
+								<field name="customJavaHomeDir">
+									<String></String>
+								</field>
+								<field name="useCustomANTHome">
+									<Boolean>false</Boolean>
+								</field>
+								<field name="customANTHomeDir">
+									<String></String>
+								</field>
+								<field name="workingDir">
+									<String>${pd}</String>
+								</field>
+								<field name="showConsoleAlways">
+									<Boolean>true</Boolean>
+								</field>
+								<field name="advancedOptionsMap">
+									<null/>
+								</field>
+								<field name="name">
+									<String>update schema/framework</String>
+								</field>
+								<field name="baseURL">
+									<null/>
+								</field>
+								<field name="footerURL">
+									<null/>
+								</field>
+								<field name="fOPMethod">
+									<null/>
+								</field>
+								<field name="fOProcessorName">
+									<null/>
+								</field>
+								<field name="headerURL">
+									<null/>
+								</field>
+								<field name="inputXSLURL">
+									<null/>
+								</field>
+								<field name="inputXMLURL">
+									<null/>
+								</field>
+								<field name="defaultScenario">
+									<Boolean>false</Boolean>
+								</field>
+								<field name="isFOPPerforming">
+									<Boolean>false</Boolean>
+								</field>
+								<field name="type">
+									<String>ANT</String>
+								</field>
+								<field name="saveAs">
+									<Boolean>true</Boolean>
+								</field>
+								<field name="openInBrowser">
+									<Boolean>true</Boolean>
+								</field>
+								<field name="outputResource">
+									<null/>
+								</field>
+								<field name="openOtherLocationInBrowser">
+									<Boolean>true</Boolean>
+								</field>
+								<field name="locationToOpenInBrowserURL">
+									<String></String>
+								</field>
+								<field name="openInEditor">
+									<Boolean>false</Boolean>
+								</field>
+								<field name="showInHTMLPane">
+									<Boolean>false</Boolean>
+								</field>
+								<field name="showInXMLPane">
+									<Boolean>false</Boolean>
+								</field>
+								<field name="showInSVGPane">
+									<Boolean>false</Boolean>
+								</field>
+								<field name="showInResultSetPane">
+									<Boolean>false</Boolean>
+								</field>
+								<field name="useXSLTInput">
+									<Boolean>false</Boolean>
+								</field>
+								<field name="xsltParams">
+									<list/>
+								</field>
+								<field name="cascadingStylesheets">
+									<String-array/>
+								</field>
+								<field name="xslTransformer">
+									<String>ANT</String>
+								</field>
+								<field name="extensionURLs">
+									<String-array/>
+								</field>
+							</antScenario>
 						</scenario-array>
 					</field>
 					<field name="validationScenarios">
