@@ -1,20 +1,31 @@
-<?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/develop/schema/de/wegaPersons.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/develop/schema/de/wegaPersons.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="../../../HWH-ODD/schema/de/hwhPersons.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="../../../HWH-ODD/schema/de/hwhPersons.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <person xmlns="http://www.tei-c.org/ns/1.0" xml:id="" status="proposed" source="HWH">
    <idno type="gnd"></idno>
    <persName type="reg">
       <forename></forename>
       <surname></surname>
    </persName>
-   <persName type="initial"></persName>
    <birth>
-      <date></date> <!-- when="0000-00-00" -->
-      <placeName></placeName>
+      <date/> <!-- when="0000-00-00" -->
+      <settlement/>
    </birth>
    <death>
-      <date></date> <!-- when="2015-12-11" -->
-      <placeName></placeName>
+      <date/> <!-- when="2015-12-11" -->
+      <settlement/>
    </death>
+   <sex/>
    <occupation></occupation>
-   <note></note>
+   <residence>
+      <settlement/>
+   </residence>
+   <note type="bioSummary">
+      <list>
+         <item/>
+      </list>
+   </note>
 </person>
+
+
+
+
+
