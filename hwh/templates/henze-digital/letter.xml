@@ -52,6 +52,9 @@
 <!--               <date when=""/>-->
             </correspAction>
          </correspDesc>
+         <langUsage>
+            <language ident=""/>
+         </langUsage>
       </profileDesc>
       <revisionDesc status="candidate">
          <change when="" who="">Creating the record.</change>
