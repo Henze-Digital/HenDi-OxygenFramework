@@ -319,7 +319,7 @@
 									<null/>
 								</field>
 								<field name="name">
-									<String>Guidelines2PDF</String>
+									<String>Guidelines2PDF (De)</String>
 								</field>
 								<field name="baseURL">
 									<String></String>
@@ -340,7 +340,7 @@
 									<String>${framework(TEI ODD)}/xml/tei/stylesheet/odds/odd2odd.xsl</String>
 								</field>
 								<field name="inputXMLURL">
-									<String>${framework}/../../HWH-ODD/src/Guidelines/guidelines-de.xml</String>
+									<String>${framework(HWH)}/../../HWH-ODD/src/Guidelines/guidelines-de.xml</String>
 								</field>
 								<field name="defaultScenario">
 									<Boolean>false</Boolean>
