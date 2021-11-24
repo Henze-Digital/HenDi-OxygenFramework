@@ -1172,7 +1172,7 @@
 									<String-array/>
 								</field>
 								<field name="xslTransformer">
-									<String>Saxon-HE XQuery</String>
+									<String>Saxon-EE XQuery</String>
 								</field>
 								<field name="extensionURLs">
 									<String-array/>
