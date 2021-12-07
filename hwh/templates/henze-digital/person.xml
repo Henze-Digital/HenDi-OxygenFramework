@@ -3,12 +3,12 @@
    <!-- Wenn keine GND-Nr. vorhanden oder ermittelbar, dann idno löschen! Sonst nicht valide. -->
    <idno type="gnd"/>
    <persName type="reg">
-      <surname>[Nachname]</surname>, <forename>[Vorname]</forename>
+      <surname></surname>, <forename></forename>
    </persName>
    <birth>
       <!-- when="2000-01-01" -->
       <date></date>
-      <settlement>[Ort]</settlement>
+      <settlement></settlement>
    </birth>
    <death>
       <!--<date notBefore="2020-01-01" notAfter="2020-04-01">Frühjahr 2020</date>-->

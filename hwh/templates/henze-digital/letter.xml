@@ -6,7 +6,7 @@
       <fileDesc>
          <titleStmt>
             <title>Henze-Digital, Briefedition</title>
-            <title><!--[Brief/Postkarte/usw. von X an Y]--></title>
+            <title><!--[Brief von X an Y]--></title>
          </titleStmt>
          <publicationStmt>
             <publisher>
@@ -27,9 +27,9 @@
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <repository><!--[Name der Institution]--></repository>
-                  <collection><!--[Name der Sammlung]--></collection>
-                  <idno><!--[Signatur/Identifikator]--></idno>
+                  <repository><!--[Institution]--></repository>
+                  <collection><!--[Sammlung]--></collection>
+                  <idno><!--[Signatur]--></idno>
                </msIdentifier>
             </msDesc>
          </sourceDesc>
@@ -63,7 +63,7 @@
    <text type="">
       <body>
          <div>
-            <!-- text comes here... -->
+            <p><!-- text comes here... --></p>
          </div>
       </body>
    </text>
