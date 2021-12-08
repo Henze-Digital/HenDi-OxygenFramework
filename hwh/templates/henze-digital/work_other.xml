@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../HWH-ODD/schema/de/hwhWorks.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../HWH-ODD/schema/de/hwhWorks.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<work xmlns="http://www.music-encoding.org/ns/mei" xml:id="A020000E" status="proposed" source="HWH">
+    <title type="reg">
+        <titlePart type="main"></titlePart>
+        <titlePart type="desc"></titlePart>
+        <!--<titlePart type="desc">für gemischten Chor</titlePart>-->
+    </title>
+    <composer>
+        <persName codedval="A001000A"></persName>
+    </composer>
+</work>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../HWH-ODD/schema/de/hwhWorks.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../HWH-ODD/schema/de/hwhWorks.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<work xmlns="http://www.music-encoding.org/ns/mei" xml:id="A020000E" status="proposed" source="HWH">
+    <title type="reg">
+        <titlePart type="main"></titlePart>
+        <titlePart type="desc"></titlePart>
+    </title>
+    <composer>
+        <persName codedval="A001000A">Henze, Hans Werner</persName>
+    </composer>
+    <librettist/>
+    <lyricist/>
+    <editor type="translator" label="en">Adolf Friedrich Graf von Schack Wesley Balk</editor>
+    <!--<creation><date isodate="1950">1950</date></creation>-->
+    <history>
+        <eventList>
+            <event type="ua">
+                <desc/>
+            </event>
+        </eventList>
+    </history>
+    <langUsage>
+        <language/>
+    </langUsage>
+    <perfMedium>
+        <castList>
+            <head>Personae dramatis</head>
+            <castItem>
+                <role/>
+                <roleDesc/>
+                <actor/>
+            </castItem>
+        </castList>
+        <perfResList>
+            <head>Besetzung</head>
+            <perfRes/>
+        </perfResList>
+    </perfMedium>
+    <perfDuration/>
+    <!-- Inhaltsverzeichnis, sofern notwendig. Z.B. für Nummern (oder Sätze?) -->
+    <!--<contents>
+        <head>Inhalt</head>
+        <contentItem n="1"></contentItem>
+    </contents>-->
+    <!-- Literatur zu diesem Werk -->
+    <biblList>
+        <bibl/>
+    </biblList>
+    <notesStmt>
+        <annot/>
+    </notesStmt>
+    <expressionList>
+        <head>Fassungen, Revisionen, Aufführungen, Übersetzungen, Neuauflagen (bearbeitet)</head>
+        <expression>
+            <title/>
+            <!-- Sofern vorhanden und vom Werk abweichend: -->
+<!--            <editor/>-->
+<!--            <arranger/>-->
+            <perfMedium>
+                <head>Besetzung</head>
+                <perfResList>
+                    <perfRes/>
+                </perfResList>
+            </perfMedium>
+        </expression>
+    </expressionList>
+    <componentList>
+        <!-- Für Sammlungen: z.B. "Zwölf Lieder", "Stücke für Klavier" usw. -->
+        <head>Enthaltene Werke</head>
+        <work n="1">
+            <title/>
+        </work>
+        <work n="2">
+            <title/>
+        </work>
+    </componentList>
+    
+</work>
