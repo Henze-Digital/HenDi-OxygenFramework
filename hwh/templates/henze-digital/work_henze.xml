@@ -3,16 +3,15 @@
 <?xml-model href="../../../HWH-ODD/schema/de/hwhWorks.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <work xmlns="http://www.music-encoding.org/ns/mei" xml:id="A020000E" status="proposed" source="HWH">
     <title type="reg">
-        <titlePart type="main"></titlePart>
-        <titlePart type="desc"></titlePart>
+        <titlePart type="main"/>
+        <titlePart type="desc"/>
     </title>
     <composer>
         <persName codedval="A001000A">Henze, Hans Werner</persName>
     </composer>
-    <librettist/>
-    <lyricist/>
-    <editor type="translator" label="en">Adolf Friedrich Graf von Schack Wesley Balk</editor>
-    <!--<creation><date isodate="1950">1950</date></creation>-->
+    <!--<librettist/> or <lyricist/>-->
+    <!--<editor type="translator" label="en"></editor>-->
+    <!--<creation><date isodate="">1950</date></creation>-->
     <history>
         <eventList>
             <event type="ua">
@@ -24,14 +23,13 @@
         <language/>
     </langUsage>
     <perfMedium>
-        <castList>
+        <!--<castList>
             <head>Personae dramatis</head>
             <castItem>
                 <role/>
                 <roleDesc/>
-                <actor/>
             </castItem>
-        </castList>
+        </castList>-->
         <perfResList>
             <head>Besetzung</head>
             <perfRes/>
@@ -44,19 +42,22 @@
         <contentItem n="1"></contentItem>
     </contents>-->
     <!-- Literatur zu diesem Werk -->
-    <biblList>
+    <!--<biblList>
         <bibl/>
-    </biblList>
-    <notesStmt>
+    </biblList>-->
+    <!--<notesStmt>
+        <!-\- annot needs `@type` -\->
         <annot/>
-    </notesStmt>
-    <expressionList>
+    </notesStmt>-->
+    <!--<expressionList>
         <head>Fassungen, Revisionen, Aufführungen, Übersetzungen, Neuauflagen (bearbeitet)</head>
         <expression>
-            <title/>
-            <!-- Sofern vorhanden und vom Werk abweichend: -->
-<!--            <editor/>-->
-<!--            <arranger/>-->
+            <title type="reg">
+                <titlePart type="main"/>
+            </title>
+            <!-\- Sofern vom oben definierten Werk abweichend: -\->
+            <!-\-            <editor/>-\->
+            <!-\-            <arranger/>-\->
             <perfMedium>
                 <head>Besetzung</head>
                 <perfResList>
@@ -64,16 +65,19 @@
                 </perfResList>
             </perfMedium>
         </expression>
-    </expressionList>
-    <componentList>
-        <!-- Für Sammlungen: z.B. "Zwölf Lieder", "Stücke für Klavier" usw. -->
+    </expressionList>-->
+    <!--<componentList>
+        <!-\- Für Sammlungen: z.B. "Zwölf Lieder", "Stücke für Klavier" usw. -\->
         <head>Enthaltene Werke</head>
         <work n="1">
-            <title/>
+            <title type="reg">
+                <titlePart type="main"/>
+            </title>
         </work>
         <work n="2">
-            <title/>
+            <title type="reg">
+                <titlePart type="main"/>
+            </title>
         </work>
-    </componentList>
-    
+    </componentList>-->
 </work>
