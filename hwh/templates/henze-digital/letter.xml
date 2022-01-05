@@ -5,8 +5,9 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Henze-Digital, Briefedition</title>
-            <title><!--[Brief von X an Y]--></title>
+            <title level="s">Henze-Digital, Briefedition</title>
+            <!--[Brief von X an Y]-->
+            <title level="a"></title>
          </titleStmt>
          <publicationStmt>
             <publisher>
@@ -27,9 +28,12 @@
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <repository><!--[Institution]--></repository>
-                  <collection><!--[Sammlung]--></collection>
-                  <idno><!--[Signatur]--></idno>
+                  <!--[Institution]-->
+                  <repository></repository>
+                  <!--[Sammlung]-->
+                  <collection></collection>
+                  <!--[Signatur]-->
+                  <idno></idno>
                </msIdentifier>
             </msDesc>
          </sourceDesc>
@@ -56,14 +60,14 @@
             <language ident=""/>
          </langUsage>
       </profileDesc>
-      <revisionDesc status="candidate">
+      <revisionDesc>
          <change when="" who="">Creating the record.</change>
       </revisionDesc>
    </teiHeader>
    <text type="">
       <body>
          <div>
-            <p><!-- text comes here... --></p>
+            <p><!-- textual content --></p>
          </div>
       </body>
    </text>
