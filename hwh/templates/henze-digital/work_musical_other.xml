@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../../../HWH-ODD/schema/de/hwhWorks.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="../../../HWH-ODD/schema/de/hwhWorks.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../../../HWH-ODD/schema/de/hwhWorksMEI.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../HWH-ODD/schema/de/hwhWorksMEI.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <work xmlns="http://www.music-encoding.org/ns/mei" xml:id="" status="proposed" source="HWH">
     <title type="reg">
         <titlePart type="main"></titlePart>

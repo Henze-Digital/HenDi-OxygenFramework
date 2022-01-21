@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../HWH-ODD/schema/de/hwhWorksTEI.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../HWH-ODD/schema/de/hwhWorksTEI.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="A0211117" source="HWH">
+   <!-- status="proposed" -->
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Henze-Digital, literarische Werke, Digitale Edition</title>
+            <title level="m">Reiselieder mit böhmischen Quinten. Autobiographische Mitteilungen 1926–1995</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Henze-Digital</name>
+               <address>
+                  <street>Hornsche Str. 44</street>
+                  <postCode>32756</postCode>
+                  <placeName>
+                     <country>D</country>
+                     <settlement>Detmold</settlement>
+                  </placeName>
+               </address>
+            </publisher>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International (CC BY 4.0)</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct type="book">
+               <monogr>
+                  <title>Reiselieder mit böhmischen Quinten. Autobiographische Mitteilungen 1926–1995</title>
+                  <author key="A001000A">Hans Werner Henze</author>
+                  <imprint>
+                     <date>1996</date>
+                     <pubPlace>Krankfurt</pubPlace>
+                     <!--<publisher>Fischer</publisher>-->
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Digital edition of selected letters from Hans Werner Henze.</p>
+         </projectDesc>
+      </encodingDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <p><!-- textual content of the soruce. --></p>
+         </div>
+      </body>
+   </text>
+</TEI>
