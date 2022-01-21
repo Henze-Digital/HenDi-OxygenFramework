@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../HWH-ODD/schema/de/hwhReviews.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../HWH-ODD/schema/de/hwhReviews.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="A0300004">
+<teiHeader>
+    <fileDesc>
+        <titleStmt>
+            <title level="a">bla</title>
+        </titleStmt>
+        <publicationStmt><p>adsrg</p></publicationStmt>
+        <sourceDesc><p>asrgd</p></sourceDesc>
+    </fileDesc>
+    <encodingDesc><projectDesc>
+        <p>sreg</p>
+    </projectDesc></encodingDesc>
+    <profileDesc></profileDesc>
+    <revisionDesc>
+        <change who="DR"></change>
+    </revisionDesc>
+</teiHeader>
+<text type="work-review">
+    <body>
+        <div></div>
+    </body>
+</text></TEI>
