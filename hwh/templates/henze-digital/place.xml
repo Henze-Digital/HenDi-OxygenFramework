@@ -2,8 +2,15 @@
 <?xml-model href="../../../HWH-ODD/schema/de/hwhPlaces.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="../../../HWH-ODD/schema/de/hwhPlaces.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <place xmlns="http://www.tei-c.org/ns/1.0" xml:id="" status="proposed" source="HWH">
-   <placeName type="reg">[Name des Ortes]</placeName>
+<!--   <idno type="geonames"></idno>-->
+   <placeName type="reg"></placeName>
+   <!-- Wenn mit geonames verknüpft, dann können wir die Koordianten von dort auslesen. -->
    <!--<location>
-      <geo>51.93142118464622 8.881909848287885</geo>
+      <geo>51.931421 8.881909</geo>
    </location>-->
+   <!--<listPlace>
+      <place xml:id="">
+         <placeName type="reg"></placeName>
+      </place>
+   </listPlace>-->
 </place>
