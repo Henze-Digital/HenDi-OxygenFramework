@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../../../../HWH-ODD/schema/de/hwhWorksTEI.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="../../../../HWH-ODD/schema/de/hwhWorksTEI.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="A0211117" source="HWH">
-   <!-- status="proposed" -->
+<?xml-model href="https://raw.githubusercontent.com/Henze-Digital/HWH-ODD/develop/schema/de/hwhWorksTEI.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/Henze-Digital/HWH-ODD/develop/schema/de/hwhWorksTEI.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="" source="HWH" status="proposed">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title level="s">Henze-Digital, literarische Werke, Digitale Edition</title>
-            <title level="m">Reiselieder mit böhmischen Quinten. Autobiographische Mitteilungen 1926–1995</title>
+            <title level="m"></title>
          </titleStmt>
          <publicationStmt>
             <publisher>
@@ -28,12 +27,12 @@
          <sourceDesc>
             <biblStruct type="book">
                <monogr>
-                  <title>Reiselieder mit böhmischen Quinten. Autobiographische Mitteilungen 1926–1995</title>
-                  <author key="A001000A">Hans Werner Henze</author>
+                  <title level="m"></title>
+                  <author key=""></author>
                   <imprint>
-                     <date>1996</date>
-                     <pubPlace>Krankfurt</pubPlace>
-                     <!--<publisher>Fischer</publisher>-->
+                     <date when=""></date>
+                     <pubPlace></pubPlace>
+                     <!--<publisher></publisher>-->
                   </imprint>
                </monogr>
             </biblStruct>
@@ -44,11 +43,23 @@
             <p>Digital edition of selected letters from Hans Werner Henze.</p>
          </projectDesc>
       </encodingDesc>
+      <profileDesc>
+         <!--<creation>
+            <date when=""/>
+         </creation>-->
+         <langUsage>
+            <language ident=""/>
+         </langUsage>
+         <!--<textClass>?</textClass>-->
+      </profileDesc>
+      <revisionDesc>
+         <change who="">Introduce the record.</change>
+      </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <div>
-            <p><!-- textual content of the soruce. --></p>
+            <p/>
          </div>
       </body>
    </text>
