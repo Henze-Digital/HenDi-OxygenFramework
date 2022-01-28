@@ -1,83 +1,124 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../../../HWH-ODD/schema/de/hwhWorksMEI.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="../../../HWH-ODD/schema/de/hwhWorksMEI.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<work xmlns="http://www.music-encoding.org/ns/mei" xml:id="" status="proposed" source="HWH">
-    <title type="reg">
-        <titlePart type="main"/>
-        <titlePart type="desc"/>
-    </title>
-    <composer>
-        <persName codedval="A001000A">Henze, Hans Werner</persName>
-    </composer>
-    <!--<librettist/> or <lyricist/>-->
-    <!--<editor type="translator" label="en"></editor>-->
-    <!--<creation><date isodate="">1950</date></creation>-->
-    <history>
-        <eventList>
-            <event type="ua">
-                <desc/>
-            </event>
-        </eventList>
-    </history>
-    <langUsage>
-        <language/>
-    </langUsage>
-    <perfMedium>
-        <!--<castList>
-            <head>Personae dramatis</head>
-            <castItem>
-                <role/>
-                <roleDesc/>
-            </castItem>
-        </castList>-->
-        <perfResList>
-            <head>Besetzung</head>
-            <perfRes/>
-        </perfResList>
-    </perfMedium>
-    <perfDuration/>
-    <!-- Inhaltsverzeichnis, sofern notwendig. Z.B. für Nummern (oder Sätze?) -->
-    <!--<contents>
-        <head>Inhalt</head>
-        <contentItem n="1"></contentItem>
-    </contents>-->
-    <!-- Literatur zu diesem Werk -->
-    <!--<biblList>
-        <bibl/>
-    </biblList>-->
-    <!--<notesStmt>
-        <!-\- annot needs `@type` -\->
-        <annot/>
-    </notesStmt>-->
-    <!--<expressionList>
-        <head>Fassungen, Revisionen, Aufführungen, Übersetzungen, Neuauflagen (bearbeitet)</head>
-        <expression>
-            <title type="reg">
-                <titlePart type="main"/>
-            </title>
-            <!-\- Sofern vom oben definierten Werk abweichend: -\->
-            <!-\-            <editor/>-\->
-            <!-\-            <arranger/>-\->
-            <perfMedium>
-                <head>Besetzung</head>
-                <perfResList>
-                    <perfRes/>
-                </perfResList>
-            </perfMedium>
-        </expression>
-    </expressionList>-->
-    <!--<componentList>
-        <!-\- Für Sammlungen: z.B. "Zwölf Lieder", "Stücke für Klavier" usw. -\->
-        <head>Enthaltene Werke</head>
-        <work n="1">
-            <title type="reg">
-                <titlePart type="main"/>
-            </title>
-        </work>
-        <work n="2">
-            <title type="reg">
-                <titlePart type="main"/>
-            </title>
-        </work>
-    </componentList>-->
-</work>
+<?xml-model href="https://raw.githubusercontent.com/Henze-Digital/HWH-ODD/develop/schema/de/hwhWorksMEI.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/Henze-Digital/HWH-ODD/develop/schema/de/hwhWorksMEI.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" xml:id="" status="proposed" source="HWH">
+    <meiHead>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="de"></title>
+<!--                <title type="sub" xml:lang="de">für XY</title>-->
+                <respStmt>
+                    <persName role="cmp" codedval="A001000A">Henze, Hans Werner</persName>
+                </respStmt>
+            </titleStmt>
+            <pubStmt>
+                <respStmt n="HWH">
+                    <persName role="edt" codedval="A0000015">Ried, Dennis</persName>
+                </respStmt>
+                <address>
+                    <addrLine>Hornsche Str. 44</addrLine>
+                    <addrLine>32756</addrLine>
+                    <addrLine>Detmold</addrLine>
+                    <addrLine>Germany</addrLine>
+                </address>
+                <availability>
+                    <useRestrict>This work is available under a Creative Commons Attribution 4.0 International (CC BY 4.0) license.</useRestrict>
+                </availability>
+            </pubStmt>
+        </fileDesc>
+        <workList>
+            <work>
+                <title>
+                    <titlePart type="main"/>
+                    <titlePart type="desc"/>
+                </title>
+                <composer>
+                    <persName codedval="A001000A">Henze, Hans Werner</persName>
+                </composer>
+                <!--<librettist/> or <lyricist/>-->
+                <!--<editor type="translator" label="en"></editor>-->
+                <!--<creation><date isodate="">1950</date></creation>-->
+                <!--<history>
+                    <eventList>
+                        <event type="ua">
+                            <date></date>
+                            <geogName type="venue"></geogName>
+                            <settlement></settlement>
+                            <p></p>
+                        </event>
+                    </eventList>
+                </history>-->
+                <langUsage>
+                    <language/>
+                </langUsage>
+                <perfMedium>
+                    <!--<castList>
+                        <head>Personae dramatis</head>
+                        <castItem>
+                            <role/>
+                            <roleDesc/>
+                        </castItem>
+                    </castList>-->
+                    <perfResList>
+                        <head>Besetzung</head>
+                        <perfRes/>
+                    </perfResList>
+                </perfMedium>
+                <perfDuration/>
+                <biblList>
+                    <bibl/>
+                </biblList>
+                <notesStmt>
+                    <annot type="Anmerkungen"/>
+                </notesStmt>
+                <!--<expressionList>
+                    <head>Fassungen, Revisionen, Aufführungen, Übersetzungen, Neuauflagen (bearbeitet)</head>
+                    <expression>
+                        <title type="reg">
+                            <titlePart type="main"/>
+                        </title>
+                        <!-\- Sofern vom oben definierten Werk abweichend: -\->
+                        <!-\-            <editor/>-\->
+                        <!-\-            <arranger/>-\->
+                        <perfMedium>
+                            <head>Besetzung</head>
+                            <perfResList>
+                                <perfRes/>
+                            </perfResList>
+                        </perfMedium>
+                    </expression>
+                </expressionList>-->
+                <!--<componentList>
+                    <!-\- Für Sammlungen: z.B. "Zwölf Lieder", "Stücke für Klavier" usw. -\->
+                    <head>Enthaltene Werke</head>
+                    <work n="1">
+                        <title>
+                            <titlePart type="main"/>
+                        </title>
+                    </work>
+                    <work n="2">
+                        <title>
+                            <titlePart type="main"/>
+                        </title>
+                    </work>
+                </componentList>-->
+            </work>
+        </workList>
+        <revisionDesc>
+            <change>
+                <respStmt>
+                    <persName/>
+                </respStmt>
+                <changeDesc>
+                    <p>Datensatz angelegt.</p>
+                </changeDesc>
+                <date isodate=""/>
+            </change>
+        </revisionDesc>
+    </meiHead>
+    <music>
+        <body>
+            <mdiv/>
+        </body>
+    </music>
+</mei>

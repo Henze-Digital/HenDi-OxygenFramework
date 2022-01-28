@@ -1,13 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../../../HWH-ODD/schema/de/hwhWorksMEI.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="../../../HWH-ODD/schema/de/hwhWorksMEI.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<work xmlns="http://www.music-encoding.org/ns/mei" xml:id="" status="proposed" source="HWH">
-    <title type="reg">
-        <titlePart type="main"></titlePart>
-        <titlePart type="desc"></titlePart>
-        <!--<titlePart type="desc">für gemischten Chor</titlePart>-->
-    </title>
-    <composer>
-        <persName codedval=""></persName>
-    </composer>
-</work>
+<?xml-model href="https://raw.githubusercontent.com/Henze-Digital/HWH-ODD/develop/schema/de/hwhWorksMEI.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/Henze-Digital/HWH-ODD/develop/schema/de/hwhWorksMEI.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" xml:id="" status="proposed" source="HWH">
+    <meiHead>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="de"></title>
+                <!--<title type="sub" xml:lang="de">für XY</title>-->
+                <respStmt>
+                    <!-- composer, singer, instrumentalist, and so on -->
+                    <persName role="" codedval=""></persName>
+                </respStmt>
+            </titleStmt>
+            <pubStmt>
+                <respStmt n="HWH">
+                    <persName role="edt" codedval=""></persName>
+                </respStmt>
+                <address>
+                    <addrLine>Hornsche Str. 44</addrLine>
+                    <addrLine>32756</addrLine>
+                    <addrLine>Detmold</addrLine>
+                    <addrLine>Germany</addrLine>
+                </address>
+                <availability>
+                    <useRestrict>This work is available under a Creative Commons Attribution 4.0 International (CC BY 4.0) license.</useRestrict>
+                </availability>
+            </pubStmt>
+        </fileDesc>
+        <workList>
+            <work>
+                <title>
+                    <titlePart type="main"/>
+                    <!--<titlePart type="desc">für gemischten Chor</titlePart>-->
+                </title>
+                <composer>
+                    <persName codedval=""/>
+                </composer>
+            </work>
+        </workList>
+        <revisionDesc>
+            <change>
+                <respStmt>
+                    <persName/>
+                </respStmt>
+                <changeDesc>
+                    <p>Datensatz angelegt.</p>
+                </changeDesc>
+                <date isodate=""/>
+            </change>
+        </revisionDesc>
+    </meiHead>
+    <music>
+        <body/>
+    </music>
+</mei>
