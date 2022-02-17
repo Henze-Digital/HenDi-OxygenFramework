@@ -45,8 +45,8 @@
                            <measure unit="folio"></measure>
                            <measure unit="pages" type="written"></measure>
                            <dimensions>
-                              <height unit="mm" quantity=""/>
-                              <width unit="mm" quantity=""/>
+                              <height unit="mm" quantity="0"/>
+                              <width unit="mm" quantity="0"/>
                            </dimensions>
                         </extent>
                         <condition/>
@@ -68,12 +68,12 @@
          <correspDesc>
             <correspAction type="sent">
                <persName key=""/>
-               <placeName key=""/>
-               <date when=""/>
+               <placeName/>
+<!--               <date when=""/>-->
             </correspAction>
             <correspAction type="received">
                <persName key=""/>
-               <placeName key=""/>
+               <placeName/>
                <!--               <date when=""/>-->
             </correspAction>
          </correspDesc>
