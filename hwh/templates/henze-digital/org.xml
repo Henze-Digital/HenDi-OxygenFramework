@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../../../HWH-ODD/schema/de/hwhOrgs.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="../../../HWH-ODD/schema/de/hwhOrgs.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../../../HenDi-ODD/schema/de/hwhOrgs.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../HenDi-ODD/schema/de/hwhOrgs.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <org xmlns="http://www.tei-c.org/ns/1.0" xml:id="" status="proposed" source="HWH">
 <!--    <idno type="gnd"></idno>-->
     <orgName type="reg"></orgName>

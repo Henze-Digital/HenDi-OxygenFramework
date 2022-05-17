@@ -2,26 +2,19 @@
 <?xml-model href="../../../HWH-ODD/schema/de/hwhPersons.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="../../../HWH-ODD/schema/de/hwhPersons.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <person xmlns="http://www.tei-c.org/ns/1.0" xml:id="" status="proposed" source="HWH">
-   <!-- Wenn keine GND-Nr. vorhanden oder ermittelbar, dann idno löschen! Sonst nicht valide. -->
-   <idno type="gnd"/>
-   <persName type="reg">
-      <surname></surname>, <forename></forename>
-   </persName>
-   <birth>
-      <!-- when="2000-01-01" -->
-      <date></date>
-      <settlement></settlement>
-   </birth>
-   <death>
-      <!--<date notBefore="2020-01-01" notAfter="2020-04-01">Frühjahr 2020</date>-->
-      <date></date>
-      <settlement></settlement>
-   </death>
-   <sex></sex>
-   <occupation></occupation>
+	<!-- Wenn keine GND-Nr. vorhanden oder ermittelbar, dann idno löschen! Sonst nicht valide. -->
+<!--	<idno type="gnd"/>-->
+	<persName type="reg">
+		<surname/>, <forename/>
+	</persName>
+	<birth>
+		<date/>
+		<settlement/>
+	</birth>
+	<death>
+		<date/>
+		<settlement/>
+	</death>
+	<sex/>
+<!--	<occupation/>-->
 </person>
-
-
-
-
-

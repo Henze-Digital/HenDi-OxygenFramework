@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../../../HWH-ODD/schema/de/hwhBiblio.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="../../../HWH-ODD/schema/de/hwhBiblio.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../../../HenDi-ODD/schema/de/hwhBiblio.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../HenDi-ODD/schema/de/hwhBiblio.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <biblStruct xmlns="http://www.tei-c.org/ns/1.0" type="" xml:id="A11" status="proposed" source="HWH">
     <monogr>
         <title></title>
