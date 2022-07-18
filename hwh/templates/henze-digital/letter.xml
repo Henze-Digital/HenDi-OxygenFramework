@@ -77,6 +77,12 @@
                <!--               <date when=""/>-->
             </correspAction>
          </correspDesc>
+         <textClass>
+            <keywords>
+               <!--<term>manuscript</term>-->
+               <!--<term>typescript</term>-->
+            </keywords>
+         </textClass>
          <langUsage>
             <language ident=""/>
          </langUsage>
