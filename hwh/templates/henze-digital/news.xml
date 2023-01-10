@@ -1,0 +1,47 @@
+<?xml-model href="../../submodules/HenDi-ODD/schema/de/hendiNews.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../submodules/HenDi-ODD/schema/de/hendiNews.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="A0500A3E">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="s">Aktuelle Nachrichten von Henze-Digital</title>
+            	<title level="a"><!--TITEL DER <q>NACHRICHT</q>--></title>
+            	<!-- AutorIn der Nachricht -->
+<!--            	<author key="A0000051">Irmlind Capelle</author>-->
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name>Henze-Digital</name>
+                    <address>
+                        <street>Hornsche Str. 44</street>
+                        <postCode>32756</postCode>
+                        <placeName>
+                            <country>D</country>
+                            <settlement>Detmold</settlement>
+                        </placeName>
+                    </address>
+                </publisher>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International (CC BY 4.0)</licence>
+                </availability>
+            	<!-- Datum der Nachricht -->
+<!--                <date when="2022-11-17T16:00:00"/>-->
+            </publicationStmt>
+            <sourceDesc/>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="HWH_cat">
+                    <term>announcement</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text type="news">
+        <body>
+            <div xml:lang="de">
+            	<p><!-- Text --></p>
+            </div>
+        </body>
+    </text>
+</TEI>
