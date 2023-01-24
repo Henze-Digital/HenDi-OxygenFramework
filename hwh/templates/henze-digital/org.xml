@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../../submodules/HenDi-ODD/schema/de/hendiOrgs.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="../../submodules/HenDi-ODD/schema/de/hendiOrgs.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<org xmlns="http://www.tei-c.org/ns/1.0" xml:id="" status="proposed" source="HWH">
+<org xmlns="http://www.tei-c.org/ns/1.0" xml:id="" status="proposed" source="HenDi">
 <!--    <idno type="gnd"></idno>-->
     <orgName type="reg"></orgName>
     <settlement></settlement>
