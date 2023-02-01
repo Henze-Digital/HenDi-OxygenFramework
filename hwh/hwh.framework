@@ -20,7 +20,7 @@
 								<Integer>6</Integer>
 							</field>
 							<field name="uri">
-								<String>${pdu}/../HWH-ODD/schema/de/hwhLetters.rng</String>
+								<String>${pdu}/submodules/HenDi-ODD/schema/de/hendiLetters.rng</String>
 							</field>
 						</docTypeSchema>
 					</field>
