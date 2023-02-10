@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../submodules/HenDi-ODD/schema/de/hendiThematicCommentaries.rng"x type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../submodules/HenDi-ODD/schema/de/hendiThematicCommentaries.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="" status="proposed">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="s">Henze-Digital, Themenkommentare, Digitale Edition</title>
+                <!--Titel des Aufsatzes-->
+                <title level="a"></title>
+                <!--Autor + Key!-->
+                <author key=""></author>
+            </titleStmt>
+            <editionStmt>
+                <p/>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <name>Henze-Digital</name>
+                    <address>
+                        <street>Hornsche Str. 44</street>
+                        <postCode>32756</postCode>
+                        <placeName>
+                            <country>D</country>
+                            <settlement>Detmold</settlement>
+                        </placeName>
+                    </address>
+                </publisher>
+                <availability>
+                    <licence target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International (CC BY 4.0)</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Born digital</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p/>
+        </encodingDesc>
+        <revisionDesc>
+            <change when="" who="">Datei angelegt</change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="thematicCom">
+        <body>
+            <div>
+                <p><!-- Textual Content --></p>
+            </div>
+        </body>
+    </text>
+</TEI>
