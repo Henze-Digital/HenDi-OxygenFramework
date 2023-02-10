@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../submodules/HenDi-ODD/schema/de/hendiDocuments.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../submodules/HenDi-ODD/schema/de/hendiDocuments.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="" status="proposed" source="HenDi">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Henze-Digital, Dokumente, Digitale Edition</title>
+            <title level="a"></title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Henze-Digital</name>
+               <address>
+                  <street>Hornsche Str. 44</street>
+                  <postCode>32756</postCode>
+                  <placeName>
+                     <country>D</country>
+                     <settlement>Detmold</settlement>
+                  </placeName>
+               </address>
+            </publisher>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International (CC BY 4.0)</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <!--[Institution]-->
+                  <repository></repository>
+                  <!--[Sammlung]-->
+                  <collection></collection>
+                  <!--[Signatur]-->
+                  <idno></idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="document">
+                     <supportDesc>
+                        <support>
+                           <material></material>
+                        </support>
+                        <extent>
+                           <measure unit="folio"></measure>
+                           <measure unit="pages" type="written"></measure>
+                           <dimensions>
+                              <height unit="mm" quantity="0"/>
+                              <width unit="mm" quantity="0"/>
+                           </dimensions>
+                        </extent>
+                        <condition/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout/>
+                     </layoutDesc>
+                  </objectDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Digital edition of selected letters from Hans Werner Henze</p>
+         </projectDesc>
+      </encodingDesc>
+      <revisionDesc>
+         <change when="" who="">Creating the record.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <p><!-- textual content --></p>
+         </div>
+      </body>
+   </text>
+</TEI>
