@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../HenDi-ODD/schema/de/hendiLetters.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../HenDi-ODD/schema/de/hendiLetters.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:hendi="http://henze-digital.zenmem.de/ns/1.0" xml:id="A140065B" status="candidate" source="HenDi">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title level="a">Übersetzung: <!--Brief von X an Y--></title>
+				<respStmt>
+					<resp>Übersetzung</resp>
+					<name>d<!-- Name Übersetzer*in--></name>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>
+					<name>Henze-Digital</name>
+					<address>
+						<street>Hornsche Str. 44</street>
+						<postCode>32756</postCode>
+						<placeName>
+							<country>D</country>
+							<settlement key="A1300E63">Detmold</settlement>
+						</placeName>
+					</address>
+				</publisher>
+				<availability>
+					<licence target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International (CC BY 4.0)</licence>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>Henze-Digital</repository>
+					</msIdentifier>
+				</msDesc>
+				<listRelation>
+					<relation key="A04037E7" name="isTranslationOf"/>
+				</listRelation>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p>Digital edition of selected letters from Hans Werner Henze</p>
+			</projectDesc>
+		</encodingDesc>
+		<profileDesc>
+			<langUsage>
+				<!-- Sprache, in die übersetzt wurde -->
+				<language ident="en"/>
+			</langUsage>
+		</profileDesc>
+		<revisionDesc>
+			<change when="2023-04-12" who="DR">Datei angelegt</change>
+		</revisionDesc>
+	</teiHeader>
+	<text type="letter">
+		<body>
+			<div>
+				<p/>
+			</div>
+		</body>
+	</text>
+</TEI>
