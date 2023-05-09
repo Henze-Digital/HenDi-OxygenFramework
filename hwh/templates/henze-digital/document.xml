@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../../submodules/HenDi-ODD/schema/de/hendiLetters.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="../../submodules/HenDi-ODD/schema/de/hendiLetters.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="" status="proposed" source="HenDi">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:hendi="http://henze-digital.zenmem.de/ns/1.0" xml:id="" status="proposed" source="HenDi">
    <teiHeader>
       <fileDesc>
          <titleStmt>
