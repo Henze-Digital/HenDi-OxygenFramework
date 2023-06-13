@@ -6,16 +6,13 @@
     <orgName type="reg"></orgName>
     <settlement></settlement>
     <country></country>
-    <!--<state type="orgType">
+    <state type="orgType">
         <desc>
-            <term>Antiquariat</term>
+            <term>TERM</term>
         </desc>
-    </state>-->
+    </state>
     <!--<listOrg>
-        <head>Abteilungen und Untergruppen</head>
-        <org xml:id="eigeneID">
-            <orgName type="reg">Abteilung</orgName>
-        </org>
+        <relation name="isAssociatedWith" key="A08"/>
     </listOrg>-->
     <listBibl>
         <bibl/>
