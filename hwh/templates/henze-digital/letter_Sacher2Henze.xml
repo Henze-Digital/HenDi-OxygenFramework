@@ -1,0 +1,116 @@
+<?xml-model href="../../submodules/HenDi-ODD/schema/de/hendiLetters.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../submodules/HenDi-ODD/schema/de/hendiLetters.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:hendi="http://henze-digital.zenmem.de/ns/1.0" xml:id="" status="proposed" source="HenDi">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title level="a">Hans Magnus Enzensberger an Hans Werner Henze</title>
+				<author key="A00049F5">Sacher, Paul</author>
+				<editor key=""></editor>
+				<respStmt>
+					<resp>Übertragung</resp>
+					<name></name>
+				</respStmt>
+			</titleStmt>
+			<editionStmt>
+				<p/>
+			</editionStmt>
+			<publicationStmt>
+				<publisher>
+					<name>Henze-Digital</name>
+					<address>
+						<street>Hornsche Str. 44</street>
+						<postCode>32756</postCode>
+						<placeName>
+							<country>D</country>
+							<settlement key="A1300E63">Detmold</settlement>
+						</placeName>
+					</address>
+				</publisher>
+				<availability>
+					<licence target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International (CC BY 4.0)</licence>
+				</availability>
+			</publicationStmt>
+			<!--<notesStmt>
+				<note type="translation" xml:lang="de" corresp="#foreign.1"></note>
+			</notesStmt>-->
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<country key="A1304219">Schweiz</country>
+						<settlement key="A1300514">Basel</settlement>
+						<repository>
+							<orgName key="A08021FB">Paul Sacher Stiftung</orgName>
+						</repository>
+						<collection>Sammlung Paul Sacher, Abteilung: Korrespondenz</collection>
+						<idno>Henze, Hans Werner</idno>
+					</msIdentifier>
+					<physDesc>
+						<objectDesc form="letter">
+							<supportDesc>
+								<support>
+									<material></material>
+								</support>
+								<extent>
+									<measure unit="folio"/>
+									<measure unit="pages" type="written"/>
+									<dimensions>
+										<height unit="mm" quantity="0"/>
+										<width unit="mm" quantity="0"/>
+									</dimensions>
+								</extent>
+								<condition>gelocht</condition>
+							</supportDesc>
+							<layoutDesc>
+								<layout><!--Absätze ohne Einzug, nach jedem Absatz eine Leerzeile--></layout>
+							</layoutDesc>
+						</objectDesc>
+					</physDesc>
+				</msDesc>
+				<!--<listRelation>
+					<relation name="hasEnvelope" key="A04"/>
+				</listRelation>-->
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p>Digital edition of selected letters from Hans Werner Henze</p>
+			</projectDesc>
+		</encodingDesc>
+		<profileDesc>
+			<correspDesc>
+				<correspAction type="sent">
+					<persName key="A00094F5">Sacher, Paul</persName>
+					<placeName/>
+					<date/>
+				</correspAction>
+				<correspAction type="received">
+					<persName key="A001000A">Henze, Hans Werner</persName>
+					<placeName/>
+					<date/>
+				</correspAction>
+			</correspDesc>
+			<textClass>
+				<keywords>
+					<term>typescript</term>
+				</keywords>
+			</textClass>
+			<handNotes>
+				<handNote xml:id="hand.1" script="typescript"/>
+<!--				<handNote xml:id="hand.2" script="manuscript" medium="" hendi:color=""/>-->
+			</handNotes>
+			<langUsage>
+				<language ident="de"/>
+			</langUsage>
+		</profileDesc>
+		<revisionDesc>
+			<change when="" who="">Datensatz angelegt.</change>
+		</revisionDesc>
+	</teiHeader>
+	<text type="letter">
+		<body>
+			<div>
+			</div>
+		</body>
+	</text>
+</TEI>
