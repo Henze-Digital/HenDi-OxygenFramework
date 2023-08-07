@@ -27,7 +27,9 @@
             	<!-- Datum der Nachricht -->
 <!--                <date when="2022-11-17T16:00:00"/>-->
             </publicationStmt>
-            <sourceDesc/>
+        	<sourceDesc>
+        		<p>born digital</p>
+        	</sourceDesc>
         </fileDesc>
         <profileDesc>
             <textClass>
