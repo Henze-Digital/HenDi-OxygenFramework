@@ -5,10 +5,9 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title level="s">Henze-Digital, Themenkommentare, Digitale Edition</title>
-                <!--Titel des Aufsatzes-->
-                <title level="a"></title>
-                <!--Autor + Key!-->
+                <title level="s">Henze-Digital, Erläuterungen, Digitale Edition</title>
+                <title level="a" xml:lang="de"></title>
+                <title level="a" xml:lang="en"></title>
                 <author key=""></author>
             </titleStmt>
             <editionStmt>
