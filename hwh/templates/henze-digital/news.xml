@@ -5,9 +5,9 @@
         <fileDesc>
             <titleStmt>
                 <title level="s">Aktuelle Nachrichten von Henze-Digital</title>
-            	<title level="a"><!--TITEL DER <q>NACHRICHT</q>--></title>
-            	<!-- AutorIn der Nachricht -->
-<!--            	<author key="A0000051">Irmlind Capelle</author>-->
+            	<title level="a" xml:lang="de"></title>
+            	<title level="a" xml:lang="en"></title>
+            	<author key=""></author>
             </titleStmt>
             <publicationStmt>
                 <publisher>
